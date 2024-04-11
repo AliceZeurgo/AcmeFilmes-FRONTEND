@@ -886,6 +886,14 @@ video {
   --tw-placeholder-opacity: 0.5;
 }
 
+.placeholder-opacity-40::-moz-placeholder {
+  --tw-placeholder-opacity: 0.4;
+}
+
+.placeholder-opacity-40::placeholder {
+  --tw-placeholder-opacity: 0.4;
+}
+
 .opacity-100 {
   opacity: 1;
 }
