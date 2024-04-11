@@ -5,17 +5,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/input.css">
-    <link rel="stylesheet" href="../src/output.css">
-    <link rel="stylesheet" href="../pages/recomend.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../input.css">
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="../index.html">
     <title>ACME - FILMES</title>
 </head>
 
-<body class="bg-[url('./img/fundoDaPagina.png')] bg-no-repeat bg-cover h-screen grid grid-rows-[auto_1fr]">
+<body class="bg-[url('../img/fundoDaPagina.png')] bg-no-repeat bg-cover h-screen grid grid-rows-[auto_1fr]">
 
     <header class="flex bg-red-950 w-127 h-[9vh]">
         
-           <img src="../src/img/logo (2).png" width="106" height="1010" alt="logo" style="transform: translate(30px);">
+           <img src="../img/logo (2).png" width="106" height="1010" alt="logo" style="transform: translate(30px);">
     
            
 
@@ -35,15 +36,18 @@
            </a>
         </button>
         <button>
-              <div class="flex items-center justify-center text-white w-[10vw]" style="transform: translate(1100px);">
+            <a href="./favoritos.html">
+                   <div class="flex items-center justify-center text-white w-[10vw]" style="transform: translate(1100px);">
             Favoritos
         </div>
+            </a>
+           
         </button>
         
             <div class="flex items-center justify-center place-content-end" style="transform: translate(1170px);">
                 <button>
                     <a href="../pages/login.html">
-                         <img src="../src/img/icone perfil.png" alt="">
+                         <img src="../img/icone perfil.png" alt="">
                     </a>
                    
                 </button>
@@ -60,7 +64,7 @@
         </p>
         <div class="bg-red-950 opacity-60 w-6/12 h-12 rounded-xl grid grid-cols-[1fr_4rem] items-center overflow-hidden">
             <input class=" placeholder-red-700 h-full w-full bg-transparent text-white" type="text">
-            <img class="p-1 place-self-center" src="../src/img/lupa.png" alt="lupinha">
+            <img class="p-1 place-self-center" src="../img/lupa.png" alt="lupinha">
         </div>
     </div>
 

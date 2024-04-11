@@ -3,7 +3,7 @@ body{
     width: 100vw;
     display: grid;
     overflow: hidden;
-    background: url(../src/img/gif-looping.gif);
+    background: url(./img/gifFundo.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #CD5151;
