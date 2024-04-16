@@ -13,12 +13,16 @@
     <script src="../js/popup.js" defer></script>
 </head>
 
-<body class="bg-[url('../img/fundoDaPagina.png')] bg-no-repeat bg-cover h-screen grid grid-rows-[auto_10vh_1fr] overflow-hidden">
+<body
+    class="bg-[url('../img/fundoDaPagina.png')] bg-no-repeat bg-cover h-screen grid grid-rows-[auto_10vh_1fr] overflow-hidden">
     <header class="flex bg-red-950 w-127 h-[9vh]">
-        <a href="./home.html">
-             <img src="../img/logo (2).png" width="106" height="1010" alt="logo" style="transform: translate(30px);">
+        <a href="../pages/home.html">
+            <img src="../img/logo (2).png" width="106" height="1010" alt="logo" style="transform: translate(30px);">
         </a>
-       
+
+
+
+
 
         <button>
             <a href="../pages/login.html">
@@ -29,7 +33,7 @@
 
         </button>
         <button>
-            <a href="../pages/favoritos.html">
+            <a href="">
                 <div class="flex items-center justify-center text-white w-[10vw]" style="transform: translate(550px);">
                     Favoritos
                 </div>
@@ -38,10 +42,10 @@
         <button>
             <a href="../pages/recomend.html">
                 <div class="flex items-center justify-center text-white w-[10vw]" style="transform: translate(1005px);">
-                Recomendados
-            </div>
+                    Recomendados
+                </div>
             </a>
-            
+
         </button>
 
         <div class="flex items-center justify-center place-content-end" style="transform: translate(1165px);">
@@ -59,14 +63,36 @@
             Favoritos
         </p>
 
-        <div class="bg-red-950 opacity-60 w-96 h-10 rounded-lg grid grid-cols-[1fr_4rem] items-center overflow-hidden">
+        <div>
+
+            <div>
+
+            </div>
+
+        </div>
+        <div class="bg-red-950 opacity-60 w-[99vh] h-10 rounded-lg grid grid-cols-[5fr_4rem] items-center overflow-hidden" style="transform: translate(-110px);">
             <input class="h-full w-full bg-transparent" type="text">
             <img class="p-1 place-self-center" src="../img/lupa.png" alt="lupinha">
+
         </div>
+
+        <div class="paste-button flex p-16">
+            <button class="button">Categorias &nbsp; ▼</button>
+            <div class="dropdown-content">
+                <a id="top" href="#">Romance</a>
+                <a id="middle" href="#">Comédia</a>
+                <a id="bottom" href="#">Ação</a>
+                <a id="bottom" href="#">Terror</a>
+                <a id="bottom" href="#">Comédia Romantica</a>
+                <a id="bottom" href="#">Ação</a>
+                <a id="bottom" href="#">Ação</a>
+            </div>
+        </div>
+
     </div>
     <div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
         <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-red-950 opacity-40">
-            <img src="../img/down-arrow 1.png" alt="" class="">
+            <img src="../img/setaEsquerda.png" alt="" class="">
         </button>
         <div class="grid grid-flow-col gap-4 w-full justify-between">
             <button class="w-[10vh] h-[15vh] rounded-xl">
@@ -95,59 +121,91 @@
                                     </button>
         </div>
         <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-red-950 placeholder-opacity-50">
-            <img src="../img/down-arrow 2.png" alt="" class="">
+            <img src="../img/setaDireita.png" alt="" class="">
         </button>
 
     </div>
-    
-    
-    <div class="bg-red-950 opacity-60 w-96 h-10 rounded-lg grid grid-cols-[1fr_4rem] items-center overflow-hidden">
-        <input class="h-full w-full bg-transparent" type="text">
-        <img class="p-1 place-self-center" src="../img/lupa.png" alt="lupinha">
-    </div>
-</div>
-<div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
-    <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-red-950 opacity-40">
-        <img src="../img/down-arrow 1.png" alt="" class="">
-    </button>
-    <div class="grid grid-flow-col gap-4 w-full justify-between">
-        <button class="w-[10vh] h-[15vh] rounded-xl">
-            <img src="../img/the wollf.png" alt="" class="h-full w-full object-cover" id="addButton">
 
+
+    </div>
+    <div class="grid grid-cols-[8vw_1fr_8vw] justify-items-center items-center">
+        <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-red-950 opacity-40">
+            <img src="../img/setaEsquerda.png" alt="" class="">
+        </button>
+        <div class="grid grid-flow-col gap-4 w-full justify-between">
             <button class="w-[10vh] h-[15vh] rounded-xl">
-                <img src="../img/jhonwick4.png" alt="" class="h-full w-full ob">
+                <img src="../img/the wollf.png" alt="" class="h-full w-full object-cover" id="addButton">
 
                 <button class="w-[10vh] h-[15vh] rounded-xl">
-                    <img src="../img/django.png" alt="" class="">
+                    <img src="../img/jhonwick4.png" alt="" class="h-full w-full ob">
 
-                    <button class="w-[10vh] h-[15vh]  rounded-xl">
-                        <img src="../img/jhonwick4.png" alt="" class="">
+                    <button class="w-[10vh] h-[15vh] rounded-xl">
+                        <img src="../img/django.png" alt="" class="">
 
                         <button class="w-[10vh] h-[15vh]  rounded-xl">
-                            <img src="../img/homemaranha2.png" alt="" class="">
-                            <a href="#"></a>
+                            <img src="../img/jhonwick4.png" alt="" class="">
 
                             <button class="w-[10vh] h-[15vh]  rounded-xl">
-                                <img src="../img/jogodaimitação.png" alt="" class="">
+                                <img src="../img/homemaranha2.png" alt="" class="">
                                 <a href="#"></a>
 
                                 <button class="w-[10vh] h-[15vh]  rounded-xl">
-                                    <img src="../img/vingadoresultimato.png" alt="" class="">
+                                    <img src="../img/jogodaimitação.png" alt="" class="">
                                     <a href="#"></a>
-                                </button>
-    </div>
-    <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-red-950 placeholder-opacity-40">
-        <img src="../img/down-arrow 2.png" alt="" class="">
-    </button>
 
-</div>
-        <div class="popup" id="popup">
-            <div class="popup-box">
-                <div class="popup-content">
-                    <span id="closeButton">Voltar</span>
+                                    <button class="w-[10vh] h-[15vh]  rounded-xl">
+                                        <img src="../img/vingadoresultimato.png" alt="" class="">
+                                        <a href="#"></a>
+                                    </button>
+        </div>
+        <button class="w-[2vw] h-[2vw] rounded-full flex justify-center items-center bg-red-950 placeholder-opacity-50">
+            <img src="../img/setaDireita.png" alt="" class="">
+        </button>
+
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-box">
+            <div class="popup-content p-5" style="color: brown">
+
+
+                <div class="flex justify-between font-bold">
+                    <img src="../img/the wollf.png" alt="cartas filme" style=" border-radius: 25px; ">
+                    <span id="closeButton" class="justify-end">Voltar</span>
+                </div>
+
+                <h1 class="justify-between text-black font-normal flex " style=" transform: translate(150px), "
+                    id="sinopse">
+                    Jordan Belfort é um ambicioso corretor da bolsa de valores que cria um verdadeiro império,
+                    enriquecendo de forma rápida, porém ilegal. Ele e seus amigos mergulham em um mundo de excessos, mas
+                    seus métodos ilícitos despertam a atenção da polícia.
+                </h1>
+
+                <div class="flex space-x-4 rounded-2xl">
+                    <div class="size-[4vh]">
+                        <img src="../img/img-classificacoes/DJCTQ_-_16.svg.png" alt="logo de classificacoes">
+                    </div>
+
+                    <div class="w-[10vh] h-9 bg-slate-100 rounded-[5px] opacity-50">
+
+                        <h1 class=" text-black font-medium justify-center grid" style="top: 5%;">
+                            30.00 R$
+                        </h1>
+                    </div>
+                    <label class="ui-bookmark">
+                        <input type="checkbox" />
+                        <div class="bookmark">
+                            <svg viewBox="0 0 16 16" style="margin-top:4px" class="bi bi-heart-fill" height="25"
+                                width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </label>
+
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
 </html>
